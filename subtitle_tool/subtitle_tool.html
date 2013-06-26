@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>subtitle_tool</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:" />
+</head>
+
+<body style="background-color: white">
+
+
+
+<ul id="index">
+  <li><a href="#subtitle_tool.pl">subtitle_tool.pl</a>
+    <ul>
+      <li><a href="#COPYRIGHT">COPYRIGHT</a></li>
+      <li><a href="#SYNOPSIS">SYNOPSIS</a></li>
+      <li><a href="#DESCRIPTION">DESCRIPTION</a></li>
+      <li><a href="#USAGE">USAGE</a></li>
+      <li><a href="#REQUIREMENTS">REQUIREMENTS</a></li>
+      <li><a href="#BUGS">BUGS</a></li>
+      <li><a href="#NOTES">NOTES</a></li>
+      <li><a href="#AUTHOR">AUTHOR</a></li>
+      <li><a href="#SEE-ALSO">SEE ALSO</a></li>
+      <li><a href="#VERSION_INFOR">VERSION_INFOR</a></li>
+    </ul>
+  </li>
+  <li><a href="#POD-ERRORS">POD ERRORS</a></li>
+</ul>
+
+<h1 id="subtitle_tool.pl">subtitle_tool.pl</h1>
+
+<h2 id="COPYRIGHT">COPYRIGHT</h2>
+
+<p>Copyright 2012 - 2013 Brant Chen (brantchen2008@gmail.com), All Rights Reserved</p>
+
+<h2 id="SYNOPSIS">SYNOPSIS</h2>
+
+<p>Handle subtitle files. My original purpose is to convert English language movie&#39;s subtitle file to the format I like. Then I can listen to the voice of the movies and check the plain lines on my smart phone:)</p>
+
+<h2 id="DESCRIPTION">DESCRIPTION</h2>
+
+
+
+Easy to go.
+
+<h2 id="USAGE">USAGE</h2>
+
+
+
+<pre>Easy to go.</pre>
+
+<h2 id="REQUIREMENTS">REQUIREMENTS</h2>
+
+<h2 id="BUGS">BUGS</h2>
+
+
+
+<B>N/A</B>
+
+<h2 id="NOTES">NOTES</h2>
+
+
+
+<table border=0>
+ <tr>  <td width=626 valign=top style='width:469.8pt;border:solid #FFD966 1.0pt;background:#FFF2CC;'>   <p>
+<pre>  
+Now this perl script is to deal with lyric in srt format.
+Sample of srt file:
+===============================================================================
+14
+00:00:46,070 --> 00:00:47,970
+早上好
+Good morning.15
+00:00:47,970 --> 00:00:52,700
+一小时前  我辞去了库克县州检察官职务
+An hour ago, I resigned as state's attorney of Cook County.16
+00:00:52,700 --> 00:00:54,200
+我心情沉重
+I did this with a heavy heart17
+00:00:54,200 --> 00:00:57,430
+将与那些诽谤性指控抗争到底
+And a deep commitment to fight these scurrilous charges.
+===============================================================================Base on current algorithm, it can't handle following exception:
+===============================================================================
+52
+00:03:02,160 --> 00:03:05,700
+6个月后53
+===============================================================================
+Because current algorithm expect 5 lines as a section in srt file. Above example just has 4 lines.
+That is not ususal case, so I don't want to fix it.
+You can quick look thought the output file and find out it and remove the exceptions from origianl srt file and run this script again :)</pre>  
+ </p>  </td> </tr>
+</table>
+
+<h2 id="AUTHOR">AUTHOR</h2>
+
+
+
+<B>Author:</B>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Brant Chen (xkdcc@163.com) </br>
+<B>Organization: </B>&nbsp     </br>
+
+<h2 id="SEE-ALSO">SEE ALSO</h2>
+
+<h2 id="VERSION_INFOR">VERSION_INFOR</h2>
+
+
+
+<B>Version:</B>&nbsp&nbsp 1.0                     </br>
+<B>Created:</B>&nbsp&nbsp 2013-6-26 10:37:29 </br>
+<B>Revision:</B>&nbsp 1.0                         </br>
+
+<h1 id="POD-ERRORS">POD ERRORS</h1>
+
+<p>Hey! <b>The above document had some coding errors, which are explained below:</b></p>
+
+<dl>
+
+<dt id="Around-line-59:">Around line 59:</dt>
+<dd>
+
+<p>Non-ASCII character seen before =encoding in &#39;&#x65E9;&#x4E0A;&#x597D;&#39;. Assuming UTF-8</p>
+
+</dd>
+</dl>
+
+
+</body>
+
+</html>
+
+

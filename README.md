@@ -11,7 +11,7 @@ My original purpose is to convert English language movie's subtitle file to the 
 Then I can check the plain lines on my smart phone while listening to the voice:smile:<br>
 Please take a look at subtitle_tool.html for the details.<br>
 
-###Welcome to Brant's Blog
+###Welcome to Brant Blog
 <a href="http://www.brantchen.com">![Brant's Blog](http://brant-public.qiniudn.com/site-Logo215x100-Brant%20Blog.png)</a>
 
 ###Follow Me on Social Networking 
